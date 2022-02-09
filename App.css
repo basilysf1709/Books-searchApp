@@ -1,0 +1,65 @@
+ * {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+}
+
+.App {
+  padding: 5rem;
+}
+
+.parent-book-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 2em;
+  width: 85%;
+  margin: auto;
+}
+
+.book-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.book-image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.book-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.news-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2em;
+}
+
+.news-img-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.news-container img {
+  height: 75%;
+  width: 45%;
+} 
+
+.home-container {
+  padding-bottom: 20rem;
+}
+
+.box {
+  width: 20rem;
+  height: 20rem;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
